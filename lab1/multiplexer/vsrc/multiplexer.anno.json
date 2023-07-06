@@ -1,0 +1,21 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"/home/zhuyangyang/project/nju_digital_design_chisel/lab1/multiplexer/vsrc"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~multiplexer|multiplexer>io_f",
+    "sources":[
+      "~multiplexer|multiplexer>io_x0",
+      "~multiplexer|multiplexer>io_y",
+      "~multiplexer|multiplexer>io_x1",
+      "~multiplexer|multiplexer>io_x2",
+      "~multiplexer|multiplexer>io_x3"
+    ]
+  }
+]

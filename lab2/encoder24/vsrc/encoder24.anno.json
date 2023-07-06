@@ -1,0 +1,18 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"/home/zhuyangyang/project/nju_digital_design_chisel/lab2/encoder24/vsrc"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~encoder24|encoder24>io_y",
+    "sources":[
+      "~encoder24|encoder24>io_en",
+      "~encoder24|encoder24>io_x"
+    ]
+  }
+]

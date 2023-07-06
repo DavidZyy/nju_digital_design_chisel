@@ -1,0 +1,10 @@
+.metals/
+.vscode/
+.bloop/
+.bsp/
+.github/
+quartus/
+obj_dir/
+build/
+dump.vcd
+target/
